@@ -1,0 +1,191 @@
+* {
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.prnt {
+    display: flex;
+    position: fixed;
+    border-bottom: 20px rgb(182, 118, 112);
+    border-style: inset;
+
+}
+
+.navbar img {
+    margin-inline-start: 20px;
+    width: 90px;
+
+}
+
+
+
+nav {
+    background-color: rgb(252, 253, 253);
+    display: flex;
+    border: 1px rgb(248, 235, 218);
+    border-style: double;
+    width: 100%;
+}
+.pnt{
+    width: 100%;
+    background-color: rgb(255, 220, 122);
+    border-radius: 10px;
+
+}
+
+
+.pnt img{
+    width: 15%;
+    height: 70px;
+    cursor: pointer;
+    
+}
+
+
+.pnt input{
+
+    margin-top: 15px;
+    width: 70%;
+    height: 50px;
+    border: 2px solid rgb(232, 217, 217);
+    border-radius: 8px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.pnt p a {
+    margin: 50px;
+    font-size: large;
+    color: rgb(199, 142, 142);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 50px;
+}
+
+.pnt {
+    display: flex;
+    width: 100%;
+
+    gap: 20px;
+}
+
+.pnt input :hover {
+    background-color: rgb(254, 254, 254);
+}
+.pnt a img{
+
+   width: 100px;
+   height: 70px;
+}
+.segmet{
+    
+    text-align: center;
+    display: flex;
+    gap: 50px;
+}
+.segmet a{
+
+    color: rgb(224, 77, 14);
+display: flex;
+justify-content: space-between;
+text-decoration: none;
+gap: 20px;
+}
+.segmet a:hover{
+    color: rgb(122, 39, 39);
+    border-bottom: 3px solid rgb(97, 168, 187);
+
+    border-radius: 50px;
+    border-width: 5px;
+
+
+}
+.product {
+   
+     width: 300px;
+    height: 300px; 
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.productcard {
+    width: 100%;
+    height:00%;
+    
+}
+
+.productimg img {
+    width: 100%;
+    height:0%; 
+    object-fit: cover;
+    
+    
+}
+
+.productcontent a {
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    height: ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 8px;
+}
+
+.productimg button {
+    padding: 8px;
+    background-color: #eacf02;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+}
+.fst{
+    column-gap: 20px;
+    gap: 20px;
+    display: flex;
+} 
+.lmbutton{
+    margin-top: 200px;
+    text-align: center;
+}
+.lmbutton button{
+    border-style: inset solid;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    border: 3px solid black;
+    font-weight: bold;
+}
+.videos{
+    margin-top: 100px;
+    text-align: center;
+}
+.foter{
+    background-color: rgb(249, 247, 247);
+border-top: 1px solid grey ;
+    margin: 40px;
+    display: flex;
+
+}
+.foter div h4{
+    color: rgb(116, 116, 158);
+}
+.foter div li h5{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma;
+    color: rgb(203, 162, 162);
+}
+.foter div li h5:hover{
+    color: rgb(109, 125, 1);
+    background-color: wheat;
+    border-radius: 7px;
+
+}
